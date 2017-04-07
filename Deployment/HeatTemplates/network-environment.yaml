@@ -1,0 +1,29 @@
+resource_registry:
+  OS::TripleO::Controller::Net::SoftwareConfig:  ./nicConfig/controller.yaml
+  OS::TripleO::Compute::Net::SoftwareConfig:     ./nicConfig/compute.yaml
+  OS::TripleO::CephStorage::Net::SoftwareConfig: ./nicConfig/ceph-storage.yaml
+
+parameter_defaults:
+  InternalApiNetCidr: 172.16.0.0/24
+  TenantNetCidr: 172.17.0.0/24
+  StorageNetCidr: 172.18.0/24
+  StorageMgmtNetCidr: 172.19.0.0/24
+  ExternalNetCidr: 10.5.17.0/24
+  ControlPlaneSubnetCidr: '24'
+  InternalApiAllocationPools: [{'start': '172.16.0.10', 'end': '172.16.0.200'}]
+  TenantAllocationPools: [{'start': '172.17.0.10', 'end': '172.17.0.200'}]
+  StorageAllocationPools: [{'start': '172.18.0.10', 'end': '172.18.0.200'}]
+  StorageMgmtAllocationPools: [{'start': '172.19.0.10', 'end': '172.19.0.200'}]
+  ExternalAllocationPools: [{'start': '10.5.17.100', 'end': '10.5.17.145'}]
+  ExternalInterfaceDefaultRoute: 10.5.17.1
+  ControlPlaneDefaultRoute: 10.5.19.50
+  EC2MetadataIp: 10.5.19.50
+  DnsServers: ["8.8.8.8","8.8.4.4"]
+  InternalApiNetworkVlanID: 201
+  TenantNetworkVlanID: 202
+  StorageNetworkVlanID: 203
+  StorageMgmtNetworkVlanID: 204
+  ExternalNetworkVlanID: 517
+  NeutronExternalNetworkBridge: "''"
+  BondInterfaceOvsOptions: "mode=802.3ad lacp_rate=1 updelay=1000 miimon=100"
+
