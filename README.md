@@ -18,4 +18,14 @@ This repository includes the solution deployment templates, the functionality ve
 + High computing Storage Server: [QuantaGrid D51PH-1ULH](https://goo.gl/HMs99p)
 + Management Switch: [QuantaMesh T1048-LB9](https://goo.gl/S9Y3vW)
 + Top-of-Rack (ToR) Switch: [QuantaMesh T3048-LY8](https://goo.gl/T7e79f)
+<br><br>
+
+## Solution Deployment 
+
+### QCT One-Click Deployment Tool
++ Auto-generate Heat Orchestration Templates based on customers’ demands.
++ Fast deploy the QxStack Red Hat OpenStack without human intervention.
++ Deploy multiple cloud environments in a single run
+
+For more information, please contact [QCT-QxStack@qct.io](mailto:QCT-QxStack@qct.io).
 
