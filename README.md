@@ -28,4 +28,15 @@ This repository includes the solution deployment templates, the functionality ve
 + Deploy multiple cloud environments in a single run
 
 For more information, please contact [QCT-QxStack@qct.io](mailto:QCT-QxStack@qct.io).
+<br><br>
+
+### Deployment Templates
+The deployment templates for building QxStack Red Hat OpenStack are listed below:
+ 
++ [Red Hat OpenStack Platform director](./Deployment/ConfigFile/undercloud.conf)
++ [Network Environment Configurations](./Deployment/HeatTemplates/network-environment.yaml)
++ [Network Interface Configurations](./Deployment/HeatTemplates/nicConfig)
++ [Storage Environment Configurations](./Deployment/HeatTemplates/storage-environment.yaml)
++ [Other Customizations](./Deployment/Scripts)
+
 
