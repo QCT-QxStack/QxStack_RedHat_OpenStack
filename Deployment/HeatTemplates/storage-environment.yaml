@@ -1,0 +1,43 @@
+resource_registry:
+  OS::TripleO::Services::CephMon:      ./PuppetServices/ceph-mon.yaml
+  OS::TripleO::Services::CephOSD:      ./PuppetServices/ceph-osd.yaml
+  OS::TripleO::Services::CephClient:   ./PuppetServices/ceph-client.yaml
+  OS::TripleO::Services::CinderBackup: ./PuppetServices/cinder-backup.yaml
+
+parameter_defaults:
+  
+  CinderEnableIscsiBackend: false
+  CinderEnableRbdBackend: true
+  CinderBackupBackend: ceph
+  CinderEnableNfsBackend: false
+  NovaEnableRbdBackend: true
+  GlanceBackend: rbd
+  GnocchiBackend: rbd
+
+  ExtraConfig:
+    ceph::profile::params::osds:
+      '/dev/sde':
+        journal: '/dev/sdb' 
+      '/dev/sdf':
+        journal: '/dev/sdb' 
+      '/dev/sdg':
+        journal: '/dev/sdb' 
+      '/dev/sdh':
+        journal: '/dev/sdb' 
+      '/dev/sdi':
+        journal: '/dev/sdc' 
+      '/dev/sdj':
+        journal: '/dev/sdc' 
+      '/dev/sdk':
+        journal: '/dev/sdc' 
+      '/dev/sdl':
+        journal: '/dev/sdc' 
+      '/dev/sdm':
+        journal: '/dev/sdd' 
+      '/dev/sdn':
+        journal: '/dev/sdd' 
+      '/dev/sdo':
+        journal: '/dev/sdd' 
+      '/dev/sdp':
+        journal: '/dev/sdd' 
+
