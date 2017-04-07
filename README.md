@@ -28,7 +28,7 @@ This repository includes the solution deployment templates, the functionality ve
 + Deploy multiple cloud environments in a single run
 
 For more information, please contact [QCT-QxStack@qct.io](mailto:QCT-QxStack@qct.io).
-<br><br>
+<br>
 
 ### Deployment Templates
 The deployment templates for building QxStack Red Hat OpenStack are listed below:
@@ -38,5 +38,18 @@ The deployment templates for building QxStack Red Hat OpenStack are listed below
 + [Network Interface Configurations](./Deployment/HeatTemplates/nicConfig)
 + [Storage Environment Configurations](./Deployment/HeatTemplates/storage-environment.yaml)
 + [Other Customizations](./Deployment/Scripts)
+<br><br>
 
+## References
 
++ [QCT QxStack Red Hat OpenStack](http://qct.io/solution/index/Compute-Virtualization/QxStack-Red-Hat-OpenStack)
++ [Red Hat Enterprise Linux 7 Product Documentation](https://access.redhat.com/documentation/en/red-hat-enterprise-linux/?version=7/)
++ [Red Hat OpenStack Platform](https://access.redhat.com/products/red-hat-openstack-platform/)
+  * [Red Hat OpenStack Platform Life Cycle](https://access.redhat.com/support/policy/updates/openstack/platform)
+  * [Red Hat OpenStack Platform Director Life Cycle](https://access.redhat.com/support/policy/updates/openstack/platform/director)
++ [Red Hat OpenStack Platform 10 Product Documentation](https://access.redhat.com/documentation/en/red-hat-openstack-platform/)
+  * [Director Installation and Usage](https://access.redhat.com/documentation/en-us/red_hat_openstack_platform/10/html/director_installation_and_usage/)
+  * [Red Hat Ceph Storage for the Overcloud](https://access.redhat.com/documentation/en-us/red_hat_openstack_platform/10/html/red_hat_ceph_storage_for_the_overcloud/)
++ [Red Hat Ceph Storage 2 Product Documentation](https://access.redhat.com/documentation/en/red-hat-ceph-storage?version=2/)
+  * [Administration Guide](https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/2/html/administration_guide/)
+  * [Object Gateway Guide](https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/2/html-single/object_gateway_guide_for_red_hat_enterprise_linux/)
