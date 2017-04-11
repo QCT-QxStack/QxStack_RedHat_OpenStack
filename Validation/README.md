@@ -1,10 +1,16 @@
 # Solution Validation for QxStack Red Hat OpenStack
 
+## Functionality Tests
+
+The Functionality of QxStack Red Hat OpenStack is validated with OpenStack Tempest.<br>
+For complete result, please refer to [Tempest Test Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Tempest/QxStack-Tempest.html)
+<br><br>
+
 ## Scenario Tests
 
 Over 90 common operation scenarios are defined for QxStack Red Hat OpenStack verification.<br>
-Please check [Rally Scenario Tests](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/scenario.html) for the testing details.
-<br>
+Please check [Rally Scenario Test Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/scenario.html) for the testing details.
+<br><br>
 
 ## Performance Validation
 
