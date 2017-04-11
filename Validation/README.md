@@ -69,3 +69,15 @@ QCT conducted a comprehensive load test over QxStack Red Hat OpenStack to demons
 |:--------:|:---------------:|:------------------:|:----------------------:|
 | GlanceImages.create\_and\_delete\_image [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#glanceimages-create-and-delete-image-scenario) | 0% | 20s | 300<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/glance/create-and-delete-image#/GlanceImages.create_and_delete_image) |
 
+<br>
+
+<a name="Keystone"></a>
+### OpenStack Keystone
+
+| Scenario | Failure<br>Rate | Max Avg<br>Duration| Maximum<br>Concurrency |
+|:--------:|:---------------:|:------------------:|:----------------------:|
+| KeystoneBasic.authenticate\_user\_and\_validate\_token [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#keystonebasic-authenticate-user-and-validate-token-scenario) | 0% | 3s | 80<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/keystone/authenticate-user-and-validate-token#/KeystoneBasic.authenticate_user_and_validate_token) |
+| KeystoneBasic.create\_user\_update\_password [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#keystonebasic-create-user-update-password-scenario) | 0% | 10s | 100<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/keystone/create-user-update-password#/KeystoneBasic.create_user_update_password) |
+| KeystoneBasic.create\_tenant\_with\_users [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#keystonebasic-create-tenant-with-users-scenario) | 0% | 20s | 26<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/keystone/create-tenant-with-users#/KeystoneBasic.create_tenant_with_users) |
+| KeystoneBasic.create\_and\_list\_services [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#keystonebasic-create-and-list-services-scenario) | 0% | 3s | 109<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/keystone/create-and-list-services#/KeystoneBasic.create_and_list_services) |
+
