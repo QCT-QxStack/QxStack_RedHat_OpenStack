@@ -60,3 +60,12 @@ QCT conducted a comprehensive load test over QxStack Red Hat OpenStack to demons
 | NeutronNetworks.create\_and\_delete\_floating\_ips [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#neutronnetworks-create-and-delete-floating-ips-scenario) | 0% | 10s | 19<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/neutron/create-and-delete-floating-ips#/NeutronNetworks.create_and_delete_floating_ips) |
 | NeutronSecurityGroup.create\_and\_update\_security\_groups [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#neutronsecuritygroup-create-and-update-security-groups-scenario) | 0% | 3s | 177<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/neutron/create-and-update-security-groups#/NeutronSecurityGroup.create_and_update_security_groups) |
 
+<br>
+
+<a name="Glance"></a>
+### OpenStack Glance
+
+| Scenario | Failure<br>Rate | Max Avg<br>Duration| Maximum<br>Concurrency |
+|:--------:|:---------------:|:------------------:|:----------------------:|
+| GlanceImages.create\_and\_delete\_image [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#glanceimages-create-and-delete-image-scenario) | 0% | 20s | 300<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/glance/create-and-delete-image#/GlanceImages.create_and_delete_image) |
+
