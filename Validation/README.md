@@ -91,3 +91,13 @@ QCT conducted a comprehensive load test over QxStack Red Hat OpenStack to demons
 | CinderVolumes.create\_and\_delete\_volume [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#cindervolumes-create-and-delete-volume-scenario) | 0% | 30s | 52<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/cinder/create-and-delete-volume#/CinderVolumes.create_and_delete_volume) |
 | CinderVolumes.create\_and\_delete\_snapshot [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#cindervolumes-create-and-delete-snapshot-scenario) | 0% | 30s | 8<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/cinder/create-and-delete-snapshot#/CinderVolumes.create_and_delete_snapshot) |
 
+<br>
+
+<a name="Swift"></a>
+### OpenStack Swift
+
+| Scenario | Failure<br>Rate | Max Avg<br>Duration| Maximum<br>Concurrency |
+|:--------:|:---------------:|:------------------:|:----------------------:|
+| SwiftObjects.list\_objects\_in\_containers [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#swiftobjects-list-objects-in-containers-scenario) | 0% | 3s | 128<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/swift/list-objects-in-containers#/SwiftObjects.list_objects_in_containers) |
+| SwiftObjects.create\_container\_and\_object\_then\_list\_objects [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#swiftobjects-create-container-and-object-then-list-objects-scenario) | 0% | 3s | 64<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/swift/create-container-and-object-then-list-objects#/SwiftObjects.create_container_and_object_then_list_objects) |
+
