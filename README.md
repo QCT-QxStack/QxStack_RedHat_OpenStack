@@ -31,6 +31,7 @@ For more information, please contact [QCT-QxStack@qct.io](mailto:QCT-QxStack@qct
 <br>
 
 ### Deployment Templates
+
 The deployment templates for building QxStack Red Hat OpenStack are listed below:
  
 + [Red Hat OpenStack Platform director](./Deployment/ConfigFile/undercloud.conf)
@@ -38,6 +39,27 @@ The deployment templates for building QxStack Red Hat OpenStack are listed below
 + [Network Interface Configurations](./Deployment/HeatTemplates/nicConfig)
 + [Storage Environment Configurations](./Deployment/HeatTemplates/storage-environment.yaml)
 + [Other Customizations](./Deployment/Scripts)
+<br><br>
+
+## Solution Validation
+
+Check the [Validation Report](./Validation/README.md) for QxStack Red Hat OpenStack
+
+### Functionality Test
+The Functionality of QxStack Red Hat OpenStack is validated with [OpenStack Tempest](https://docs.openstack.org/developer/tempest).<br>
+For detailed results, please refer to [Tempest Test Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Tempest/QxStack-Tempest.html).
+<br>
+
+### Load Test
+QCT conducted a comprehensive load test over QxStack Red Hat OpenStack to demonstrate the maximum capabilities, including:
+
++ [Authentication](./Validation/README.md#Authentication)
++ [Nova Compute Service](./Validation/README.md#Nova)
++ [Neutron Network Service](./Validation/README.md#Neutron)
++ [Glance Image Service](./Validation/README.md#Glance)
++ [Keystone Identity Service](./Validation/README.md#Keystone)
++ [Cinder Volume Service](./Validation/README.md#Cinder)
++ [Swift Object Storage Service](./Validation/README.md#Swift)
 <br><br>
 
 ## References
