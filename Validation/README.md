@@ -81,3 +81,13 @@ QCT conducted a comprehensive load test over QxStack Red Hat OpenStack to demons
 | KeystoneBasic.create\_tenant\_with\_users [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#keystonebasic-create-tenant-with-users-scenario) | 0% | 20s | 26<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/keystone/create-tenant-with-users#/KeystoneBasic.create_tenant_with_users) |
 | KeystoneBasic.create\_and\_list\_services [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#keystonebasic-create-and-list-services-scenario) | 0% | 3s | 109<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/keystone/create-and-list-services#/KeystoneBasic.create_and_list_services) |
 
+<br>
+
+<a name="Cinder"></a>
+### OpenStack Cinder
+
+| Scenario | Failure<br>Rate | Max Avg<br>Duration| Maximum<br>Concurrency |
+|:--------:|:---------------:|:------------------:|:----------------------:|
+| CinderVolumes.create\_and\_delete\_volume [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#cindervolumes-create-and-delete-volume-scenario) | 0% | 30s | 52<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/cinder/create-and-delete-volume#/CinderVolumes.create_and_delete_volume) |
+| CinderVolumes.create\_and\_delete\_snapshot [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#cindervolumes-create-and-delete-snapshot-scenario) | 0% | 30s | 8<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/cinder/create-and-delete-snapshot#/CinderVolumes.create_and_delete_snapshot) |
+
