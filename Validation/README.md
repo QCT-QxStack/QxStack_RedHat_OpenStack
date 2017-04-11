@@ -47,3 +47,16 @@ QCT conducted a comprehensive load test over QxStack Red Hat OpenStack to demons
 | NovaAggregates.create\_aggregate\_add\_and\_remove\_host [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#novaaggregates-create-aggregate-add-and-remove-host-scenario) | 0% | 3s | 184<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/nova/create-aggregate-add-and-remove-host#/NovaAggregates.create_aggregate_add_and_remove_host) |
 | NovaHypervisors.list\_and\_get\_hypervisors [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#novahypervisors-list-and-get-hypervisors-scenario) | 0% | 3s | 273<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/nova/list-and-get-hypervisors#/NovaHypervisors.list_and_get_hypervisors) |
 
+<br>
+
+<a name="Neutron"></a>
+### OpenStack Neutron
+
+| Scenario | Failure<br>Rate | Max Avg<br>Duration| Maximum<br>Concurrency |
+|:--------:|:---------------:|:------------------:|:----------------------:|
+| NeutronNetworks.create\_and\_update\_networks [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#neutronnetworks-create-and-update-networks-scenario) | 0% | 3s | 74<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/neutron/create-and-update-networks#/NeutronNetworks.create_and_update_networks) |
+| NeutronNetworks.create\_and\_update\_subnets [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#neutronnetworks-create-and-update-subnets-scenario) | 0% | 20s | 292<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/neutron/create-and-update-subnets#/NeutronNetworks.create_and_update_subnets) |
+| NeutronNetworks.create\_and\_delete\_ports [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#neutronnetworks-create-and-delete-ports-scenario) | 0% | 60s | 79<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/neutron/create-and-delete-ports#/NeutronNetworks.create_and_delete_ports) |
+| NeutronNetworks.create\_and\_delete\_floating\_ips [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#neutronnetworks-create-and-delete-floating-ips-scenario) | 0% | 10s | 19<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/neutron/create-and-delete-floating-ips#/NeutronNetworks.create_and_delete_floating_ips) |
+| NeutronSecurityGroup.create\_and\_update\_security\_groups [ⓘ](http://rally.readthedocs.io/en/latest/plugins/plugin_reference.html#neutronsecuritygroup-create-and-update-security-groups-scenario) | 0% | 3s | 177<br>[Rally Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Rally/neutron/create-and-update-security-groups#/NeutronSecurityGroup.create_and_update_security_groups) |
+
