@@ -1,11 +1,11 @@
-# QCT QxStack Red Hat OpenStack
+# QCT QxStack with Red Hat OpenStack Platform
 
 ## Overview
 
-The QCT QxStack Red Hat OpenStack is an optimized appliance thoroughly validated by QCT based on Red Hat OpenStack Platform:
+The QCT QxStack with Red Hat OpenStack Platform is an optimized appliance thoroughly validated by QCT based on Red Hat OpenStack Platform:
 
 + A robust, resilient, and high available OpenStack cloud environment for cloud services providers and enterprises.
-+ QCT one-click deployment tool for streamlined setup process.
++ QCT QxStack Auto-Deployment Tool for streamlined setup process.
 + Optimized configuration with high availability, functionality and performance.
 <br>
 
@@ -24,7 +24,7 @@ This repository includes the solution deployment templates, the functionality ve
 
 ### QCT One-Click Deployment Tool
 + Auto-generate Heat Orchestration Templates based on customers’ demands.
-+ Fast deploy the QxStack Red Hat OpenStack without human intervention.
++ Fast deploy the QxStack with Red Hat OpenStack Platform without human intervention.
 + Deploy multiple cloud environments in a single run
 
 For more information, please contact [QCT-QxStack@qct.io](mailto:QCT-QxStack@qct.io).
@@ -32,7 +32,7 @@ For more information, please contact [QCT-QxStack@qct.io](mailto:QCT-QxStack@qct
 
 ### Deployment Templates
 
-The deployment templates for building QxStack Red Hat OpenStack are listed below:
+The deployment templates for building QxStack with Red Hat OpenStack Platform are listed below:
  
 + [Red Hat OpenStack Platform director](./Deployment/ConfigFile/undercloud.conf)
 + [Network Environment Configurations](./Deployment/HeatTemplates/network-environment.yaml)
@@ -43,15 +43,15 @@ The deployment templates for building QxStack Red Hat OpenStack are listed below
 
 ## Solution Validation
 
-Check the [Validation Report](./Validation/README.md) for QxStack Red Hat OpenStack
+Check the [Validation Report](./Validation/README.md) for QxStack with Red Hat OpenStack Platform
 
 ### Functionality Test
-The Functionality of QxStack Red Hat OpenStack is validated with [OpenStack Tempest](https://docs.openstack.org/developer/tempest).<br>
-For detailed results, please refer to [Tempest Test Report](https://qct-qxstack.github.io/QxStack_RedHat_OpenStack/v1.0/Validation/Tempest/QxStack-Tempest.html).
+The Functionality of QxStack with Red Hat OpenStack Platform is validated with [OpenStack Tempest](https://docs.openstack.org/developer/tempest).<br>
+For detailed results, please refer to [Tempest Test Report](https://qct-qxstack.github.io/QxStack_with_RedHat_OpenStack_Platform/v1.0/Validation/Tempest/QxStack-Tempest.html).
 <br>
 
 ### Load Test
-QCT conducted a comprehensive load test over QxStack Red Hat OpenStack to demonstrate the maximum capabilities, including:
+QCT conducted a comprehensive load test over QxStack with Red Hat OpenStack Platform to demonstrate the maximum capabilities, including:
 
 + [Authentication](./Validation/README.md#Authentication)
 + [Nova Compute Service](./Validation/README.md#Nova)
@@ -64,7 +64,7 @@ QCT conducted a comprehensive load test over QxStack Red Hat OpenStack to demons
 
 ## References
 
-+ [QCT QxStack Red Hat OpenStack](http://qct.io/solution/index/Compute-Virtualization/QxStack-Red-Hat-OpenStack)
++ [QCT QxStack with Red Hat OpenStack Platform](http://qct.io/solution/index/Compute-Virtualization/QxStack-with-Red-Hat-OpenStack-Platform)
 + [Red Hat Enterprise Linux 7 Product Documentation](https://access.redhat.com/documentation/en/red-hat-enterprise-linux/?version=7/)
 + [Red Hat OpenStack Platform](https://access.redhat.com/products/red-hat-openstack-platform/)
   * [Red Hat OpenStack Platform Life Cycle](https://access.redhat.com/support/policy/updates/openstack/platform)
